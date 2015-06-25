@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title>BMW</title>
+
+<script type="text/javascript">
+	    $(document).on('click','.btn.one-f',function(){
+	  
+                jQuery.ajax({
+                    url: "mail.php", //Адрес подгружаемой страницы
+                    type: "POST", //Тип запроса
+                    dataType: "html", //Тип данных
+                    data: jQuery("#form_id").serialize()
+             
+
+                });
+
+                alert('Спасибо, мы с вами свяжемся!');
+                return false;
+             });
+
+	    $(document).on('click','.btn.two-f',function(){
+
+                jQuery.ajax({
+                    url: "/mail.php", //Адрес подгружаемой страницы
+                    type: "POST", //Тип запроса
+                    dataType: "html", //Тип данных
+                    data: jQuery("#form_id2").serialize()
+             
+
+                });
+
+                alert('Спасибо, мы с вами свяжемся!');
+                return false;
+             });
+</script>
+</head>
+<body>
+<!--Header Block-->
+<div class="header-block">
+	<p class="offer-one">
+		Все запчасти имеют минимальный износ от 0% до 20% и импортируются только из США и Европы 
+	</p>
+	<p class="offer-two">
+		Крупнейшая авторазборка BMW в Москве
+	</p>
+
+</div>
+<div class="line-blue">
+<p class="call-us">		Позвоните нам по телефону: <span>499 477-77-77</span></p>
+</div>
+
+<div class="form-one" id="callyes">
+	<p>Или оставьте заявку и мы Вам перезвоним</p>
+	<form method="post" action=""  id="form_id">
+		<input type="text"  name="name" placeholder="Ваше имя" value="">
+		<input type="text"  name="phone" placeholder="Ваш телефон" value="">
+		<a href="" class="btn one-f">Заказать обратный звонок</a>
+	</form>
+
+</div>
+<div class="model">
+	<div class="review-block">
+	<p class="review">The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free. The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.</p>
+	<p class="respect">С уважением BMWDOM</p>
+	</div>
+	<div class="offers-block">
+		<p class="offer-1">Более 5 лет на рынке</p>
+		<p class="offer-2">Запчасти только из США и Европы</p>
+		<p class="offer-3">Запчасти только из США и Европы</p>
+		<p class="offer-4">Привозим более 100 авомобилей в год</p>
+		<p class="offer-5">Износ менее 20%</p>
+	</div>
+
+
+</div>
+<div class="form-two">
+<p>Точная онлайн подборка запчастей</p>
+<div class="form-block-or">
+
+	<form method="post" action=""  id="form_id2">
+		<select>
+			<option disabled selected>Серия</option>
+			<option>1 серия</option>
+			<option>2 серия</option>
+			<option>3 серия</option>
+			<option>4 серия</option>
+			<option>5 серия</option>
+			<option>6 серия</option>
+			<option>7 серия</option>
+			<option>Х1</option>
+			<option>Х2</option>
+			<option>Х3</option>
+			<option>Х4</option>
+			<option>Х5</option>
+			<option>Х6</option>
+			<option>Другая</option>			
+		</select>
+		<select>
+			<option disabled selected>Год выпуска</option>
+			<option>2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2009</option>
+			<option>2008</option>
+			<option>2007</option>
+			<option>2006</option>
+			<option>2005</option>
+			<option>2004</option>
+			<option>2003</option>
+			<option>2002</option>
+			<option>2001</option>
+			<option>2000</option>
+			<option>Другой</option>			
+		</select>
+		<input type="text"  name="v-dvg" placeholder="Объем двигателя" value="">
+		<select>
+			<option disabled selected>Модель кузова</option>
+			<option>Е46</option>
+			<option>E39</option>
+			<option>E38</option>
+			<option>E53</option>
+			<option>E83</option>
+			<option>E87</option>
+			<option>E65</option>
+			<option>E70</option>
+			<option>E90</option>
+			<option>E84</option>
+			<option>E60</option>		
+		</select>
+		<textarea name="zap" placeholder="Требуемые запчасти" value=""></textarea>
+		<input type="text"  name="name" placeholder="Ваше имя" value="">
+		<input type="text"  name="phone" placeholder="Ваш телефон" value="">
+		<a href="" class="btn two-f">Узнать цену</a>
+</form>
+</div>
+
+
+</div>
+
+<div class="dos-block">
+<div class="dos-block-text">
+	<h1>Доставка</h1>
+	<p>
+		The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free. The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.The intelligent linking of vehicle, driver and outside world. It makes sure you’re always – so connected, you’re free.
+	</p>
+
+</div>
+</div>
+
+<div class="call-back">
+	<div class="call-back-center">
+		<div class="call-back-left">
+			<h1>Контакты</h1>
+			<p>
+			г. Москва, ул. Марксистская, д. 38
+			Подземная парковка Галереи «Кристалл»
+			<span>+7 (926) 665-99-85</span>
+			</p>
+
+		</div>
+		<div class="call-back-right">
+			<a href="#callyes" class="btn">Заказать обратный звонок</a>
+
+		</div>
+	</div>
+</div>
+<div class="maps">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4492.837828608045!2d37.667171526439596!3d55.7338500203855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54adb8372c92d%3A0x53a4ad6aeeb96e53!2z0JzQsNGA0LrRgdC40YHRgtGB0LrQsNGPINGD0LsuLCAzOCwg0JzQvtGB0LrQstCwLCAxMDkxNDc!5e0!3m2!1sru!2sru!4v1433952254838" width="100%" height="260" frameborder="0" style="border:0"></iframe>
+
+</div>
+<div class="footer">
+	
+<p class="offer-one foot">
+		Все запчасти имеют минимальный износ от 0% до 20% и импортируются только из США и Европы 
+	</p>
+	<p class="call-us foot">		Позвоните нам по телефону: <span>499 477-77-77</span></p>
+	<p class="offer-two foot">
+		Крупнейшая авторазборка BMW в Москве
+	</p>
+
+</div>
+
+
+</body>
+</html>
