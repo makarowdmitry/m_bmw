@@ -8,7 +8,7 @@ $model = $_POST['model'];
 $year = $_POST['year'];
 $vdvg = $_POST['v-dvg'];
 $kuzov = $_POST['kuzov'];
-$zap = $_POST['zap'];
+$zapch = $_POST['zapch'];
 
 
 $headers = "Reply-To: ".$to."\r\n";
@@ -18,8 +18,14 @@ $headers .= "From: ". $from ." \r\n";
 $subject = "Заявка на запчасти BMW";
 
 $msg = "";
-$msg .= $from." ";
-$msg .= $phone." ";
+$msg .= $from." <br>";
+$msg .= $phone."<br> ";
+$msg .= $model." <br>";
+$msg .= $year." <br>";
+$msg .= $vdvg." <br>";
+$msg .= $kuzov." <br>";
+$msg .= $zapch." ";
+
 
 $result = mail($to, $subject, $msg, $headers);
 if ($result){ echo "Cообщение успешно отправленно."; }

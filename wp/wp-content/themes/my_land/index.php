@@ -9,14 +9,15 @@
 <script type="text/javascript">
 	    $(document).on('click','.btn.one-f',function(){
 	  
-                jQuery.ajax({
-                    url: "mail.php", //Адрес подгружаемой страницы
+                $.ajax({
+                    url: "<?php bloginfo('template_url');?>/mail.php", //Адрес подгружаемой страницы
                     type: "POST", //Тип запроса
                     dataType: "html", //Тип данных
-                    data: jQuery("#form_id").serialize()
+                    data: $("#form_id").serialize()
              
 
                 });
+
 
                 alert('Спасибо, мы с вами свяжемся!');
                 return false;
@@ -24,11 +25,11 @@
 
 	    $(document).on('click','.btn.two-f',function(){
 
-                jQuery.ajax({
-                    url: "/mail.php", //Адрес подгружаемой страницы
+                $.ajax({
+                    url: "<?php bloginfo('template_url');?>/mail2.php", //Адрес подгружаемой страницы
                     type: "POST", //Тип запроса
                     dataType: "html", //Тип данных
-                    data: jQuery("#form_id2").serialize()
+                    data: $("#form_id2").serialize()
              
 
                 });
@@ -150,58 +151,58 @@
 <div class="form-block-or">
 
 	<form method="post" action=""  id="form_id2">
-		<select>
-			<option disabled selected>Серия</option>
-			<option>1 серия</option>
-			<option>2 серия</option>
-			<option>3 серия</option>
-			<option>4 серия</option>
-			<option>5 серия</option>
-			<option>6 серия</option>
-			<option>7 серия</option>
-			<option>Х1</option>
-			<option>Х2</option>
-			<option>Х3</option>
-			<option>Х4</option>
-			<option>Х5</option>
-			<option>Х6</option>
-			<option>Другая</option>			
+		<select name="kuzov">
+			<option disabled selected value="не указано" >Серия</option>
+			<option value="1 серия">1 серия</option>
+			<option value="2 серия">2 серия</option>
+			<option value="3 серия">3 серия</option>
+			<option value="4 серия">4 серия</option>
+			<option value="5 серия">5 серия</option>
+			<option value="6 серия">6 серия</option>
+			<option value="7 серия">7 серия</option>
+			<option value="X1">Х1</option>
+			<option value="X2">Х2</option>
+			<option value="X3">Х3</option>
+			<option value="X4">Х4</option>
+			<option value="X5">Х5</option>
+			<option value="X6">Х6</option>
+			<option value="Другая">Другая</option>			
 		</select>
-		<select>
-			<option disabled selected>Год выпуска</option>
-			<option>2014</option>
-			<option>2013</option>
-			<option>2012</option>
-			<option>2011</option>
-			<option>2010</option>
-			<option>2009</option>
-			<option>2008</option>
-			<option>2007</option>
-			<option>2006</option>
-			<option>2005</option>
-			<option>2004</option>
-			<option>2003</option>
-			<option>2002</option>
-			<option>2001</option>
-			<option>2000</option>
+		<select name="year">
+			<option disabled selected value="не указано">Год выпуска</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="2009">2009</option>
+			<option value="2008">2008</option>
+			<option value="2007">2007</option>
+			<option value="2006">2006</option>
+			<option value="2005">2005</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+			<option value="2001">2001</option>
+			<option value="2000">2000</option>
 			<option>Другой</option>			
 		</select>
 		<input type="text"  name="v-dvg" placeholder="Объем двигателя" value="">
-		<select>
+		<select name="model">
 			<option disabled selected>Модель кузова</option>
-			<option>Е46</option>
-			<option>E39</option>
-			<option>E38</option>
-			<option>E53</option>
-			<option>E83</option>
-			<option>E87</option>
-			<option>E65</option>
-			<option>E70</option>
-			<option>E90</option>
-			<option>E84</option>
-			<option>E60</option>		
+			<option value="E46">Е46</option>
+			<option value="E39">E39</option>
+			<option value="E38">E38</option>
+			<option value="E53">E53</option>
+			<option value="E83">E83</option>
+			<option value="E87">E87</option>
+			<option value="E65">E65</option>
+			<option value="E70">E70</option>
+			<option value="E90">E90</option>
+			<option value="E84">E84</option>
+			<option value="E60">E60</option>		
 		</select>
-		<textarea name="zap" placeholder="Требуемые запчасти" value=""></textarea>
+		<textarea name="zapch" placeholder="Требуемые запчасти" value=""></textarea>
 		<input type="text"  name="name" placeholder="Ваше имя" value="">
 		<input type="text"  name="phone" placeholder="Ваш телефон" value="">
 		<a href="" class="btn two-f">
