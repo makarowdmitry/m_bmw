@@ -358,3 +358,38 @@ h1 {
 .call-us.foot{
 	margin-top: 70px;
 }
+
+.model-block {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.model-block p {
+	font-size: 16px;
+	color:#000;
+
+}
+
+.dos-block .model-block p {
+	font-size: 16px;
+	color:#000;
+	text-transform: uppercase;
+
+}
+
+
+.dos-block .model-block img {
+	margin-top: 10px;
+}
+.model-block img {
+	
+
+}
+
+.model-block div {
+	width: 25%;
+	float: left;
+
+}

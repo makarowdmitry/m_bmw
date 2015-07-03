@@ -88,6 +88,137 @@
 
 </div>
 <div class="model">
+
+
+
+
+
+		
+
+
+<div class="row model-block">
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=96');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	
+    	<?php if(have_posts()):query_posts('p=96');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?> 		
+    	</div>
+
+
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=98');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=98');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=100');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=100');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=102');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=102');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=104');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=104');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=106');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=106');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=108');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=108');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>  		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=110');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=110');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>  		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=112');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=112');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+
+		<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=114');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=114');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=116');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=116');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>  		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=118');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=118');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>  		
+    	</div>   	
+
+    </div>
+
+	
 	<div class="review-block">
 	
 	<?php if(have_posts()):query_posts('p=17');
@@ -219,6 +350,134 @@
 </div>
 
 <div class="dos-block">
+
+<div class="row model-block">
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=120');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=120');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=122');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=122');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   	
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=124');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=124');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>       		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=126');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=126');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>     		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=128');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=128');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>   		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=130');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=130');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>    		
+    	</div>
+
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=132');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=132');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>     		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=134');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=134');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>      		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=136');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=136');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>    		
+    	</div>
+
+
+
+
+		<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=138');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=138');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>    		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=140');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=140');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>     		
+    	</div>
+
+    	
+    	<div class="col-md-3">
+    	<img src="<?php if(have_posts()):query_posts('p=142');
+		while (have_posts()):the_post(); ?><?php the_title();?>
+		<? endwhile; endif; wp_reset_query();?>">
+    	<?php if(have_posts()):query_posts('p=142');
+		while (have_posts()):the_post(); ?><?php the_content();?>
+		<? endwhile; endif; wp_reset_query();?>      		
+    	</div>
+
+
+    	
+
+    </div>
+
+
 <div class="dos-block-text">
 	<?php if(have_posts()):query_posts('p=35');
 		while (have_posts()):the_post(); ?>
